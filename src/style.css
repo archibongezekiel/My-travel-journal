@@ -26,7 +26,7 @@
 }
 .selection-container {
   border-bottom: 1px solid #c7c6c9;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   align-items: center;
   margin-top: 40px;
@@ -50,7 +50,7 @@
 }
 .country-text {
   font-weight: 900;
-  font-size: 17px;
+  font-size: 14px;
   padding-right: 5px;
 }
 .google-map {
@@ -62,15 +62,15 @@
   flex-direction: column;
 }
 .location-text {
-  font-weight: bolder;
+  font-weight: bold;
   font-family: "Mochiy Pop One", sans-serif;
   margin-bottom: 17px;
 }
 .date-text {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 900;
 }
 .description-text {
-  font-size: 16px;
+  font-size: 15px;
 }
