@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+#nav-bar {
+  background-color: #e53e52;
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 90px;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 20px;
+}
+#earth-icon {
+  font-size: 40px;
+  padding: 2px;
+}
+.nav-text {
+  font-size: 20px;
+  padding: 4px;
+}
+.selection-container {
+  border-bottom: 1px solid #c7c6c9;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  height: 300px;
+}
+
+.photo-style {
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+  padding: 7px;
+}
+.country-map-container {
+  display: flex;
+  align-items: center;
+}
+#location-icon {
+  color: #e53e52;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.country-text {
+  font-weight: 900;
+  font-size: 18px;
+  padding-right: 5px;
+}
+.google-map {
+  color: #c7c6c9;
+  padding-left: 10px;
+}
+.description-location-date-container {
+  display: flex;
+  flex-direction: column;
+}
+.location-text {
+  font-weight: bolder;
+  font-family: "Mochiy Pop One", sans-serif;
+  margin-bottom: 21px;
+}
+.date-text {
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 900;
+}
+.description-text {
+  font-size: 16px;
+}
